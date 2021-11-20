@@ -1,0 +1,680 @@
+/*
+ *  psd2css.css
+ *
+ *  This is your external CSS style sheet. It defines all of the CSS styles that you
+ *  are using in your page.  If you are going to create multiple pages from the same
+ *  PSD file (like a template), you will share this CSS style sheet between the various
+ *  pages.
+ *
+ *  This file was originally generated at http://psd2cssonline.com 
+ *  April 27, 2011, 2:17 am with psd2css Online version 1.95
+ *
+ */
+
+body {
+  /* This is the background image to the entire page that you
+   * get because of the layer '_bodybg' that you created.
+   * If you would like this layer to stay static relative to the
+   * browser window (you don't want it to scroll with your content)
+   * just add the word 'fixed' to the line below (before the ;). */
+  background: url(Layer-1.png) ;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: small;
+}
+
+/* This modification to paragraphs helps keep the _frame
+ * feature consistant */
+p {
+  margin: 0;
+  padding: 13px 0 0;
+}
+
+/* You named this layer _center */
+#Layer-2 {
+  position: absolute;
+  margin-left: -512px;
+  left: 50%;
+  top: +0px;
+  width: 1024px;
+  height: 900px;
+  z-index: 2;
+}
+
+/* You named this layer _frame */
+#Layer-3 {
+  position: absolute;
+  left: 236px;
+  top: 107px;
+  width: 552px;
+  height: 778px;
+  z-index: 3;
+}
+
+/* You named this layer Copyright SimpleVocabcom */
+#Layer-4 {
+  position: absolute;
+  left: 181px;
+  top: 157px;
+  width: 193px;
+  height: 21px;
+  z-index: 4;
+}
+
+/* You named this layer terms_link */
+#Layer-5 {
+  position: absolute;
+  left: 290px;
+  top: 142px;
+  width: 74px;
+  height: 8px;
+  z-index: 5;
+}
+
+/* You named this layer privacy_link */
+#Layer-6 {
+  position: absolute;
+  left: 192px;
+  top: 142px;
+  width: 84px;
+  height: 8px;
+  z-index: 6;
+}
+
+/* You named this layer advertise_link */
+#Layer-7 {
+  position: absolute;
+  left: 425px;
+  top: 110px;
+  width: 92px;
+  height: 13px;
+  z-index: 7;
+}
+
+/* You named this layer mobile_link */
+#Layer-8 {
+  position: absolute;
+  left: 352px;
+  top: 110px;
+  width: 64px;
+  height: 13px;
+  z-index: 8;
+}
+
+/* You named this layer contact1_link */
+#Layer-9 {
+  position: absolute;
+  left: 261px;
+  top: 110px;
+  width: 82px;
+  height: 13px;
+  z-index: 9;
+}
+
+/* You named this layer about1_link */
+#Layer-10 {
+  position: absolute;
+  left: 192px;
+  top: 110px;
+  width: 60px;
+  height: 13px;
+  z-index: 10;
+}
+
+/* You named this layer faq1_link */
+#Layer-11 {
+  position: absolute;
+  left: 152px;
+  top: 109px;
+  width: 35px;
+  height: 19px;
+  z-index: 11;
+}
+
+/* You named this layer news1_link */
+#Layer-12 {
+  position: absolute;
+  left: 97px;
+  top: 110px;
+  width: 47px;
+  height: 13px;
+  z-index: 12;
+}
+
+/* You named this layer home1_link */
+#Layer-13 {
+  position: absolute;
+  left: 37px;
+  top: 110px;
+  width: 52px;
+  height: 13px;
+  z-index: 13;
+}
+
+/* You named this layer advertise_linkover */
+#Layer-14 {
+  position: absolute;
+  left: 425px;
+  top: 110px;
+  width: 92px;
+  height: 18px;
+  z-index: 14;
+}
+
+/* You named this layer mobile_linkover */
+#Layer-15 {
+  position: absolute;
+  left: 351px;
+  top: 110px;
+  width: 65px;
+  height: 18px;
+  z-index: 15;
+}
+
+/* You named this layer contact1_linkover */
+#Layer-16 {
+  position: absolute;
+  left: 260px;
+  top: 110px;
+  width: 84px;
+  height: 18px;
+  z-index: 16;
+}
+
+/* You named this layer about1_linkover */
+#Layer-17 {
+  position: absolute;
+  left: 191px;
+  top: 110px;
+  width: 62px;
+  height: 18px;
+  z-index: 17;
+}
+
+/* You named this layer faq1_linkover */
+#Layer-18 {
+  position: absolute;
+  left: 151px;
+  top: 109px;
+  width: 37px;
+  height: 20px;
+  z-index: 18;
+}
+
+/* You named this layer news1_linkover */
+#Layer-19 {
+  position: absolute;
+  left: 94px;
+  top: 110px;
+  width: 51px;
+  height: 20px;
+  z-index: 19;
+}
+
+/* You named this layer home1_linkover */
+#Layer-20 {
+  position: absolute;
+  left: 36px;
+  top: 110px;
+  width: 53px;
+  height: 18px;
+  z-index: 20;
+}
+
+/* You named this layer myspace_link */
+#Layer-21 {
+  position: absolute;
+  left: 385px;
+  top: 39px;
+  width: 55px;
+  height: 54px;
+  z-index: 21;
+}
+
+/* You named this layer buzz_link */
+#Layer-22 {
+  position: absolute;
+  left: 318px;
+  top: 36px;
+  width: 56px;
+  height: 57px;
+  z-index: 22;
+}
+
+/* You named this layer stumble_link */
+#Layer-23 {
+  position: absolute;
+  left: 251px;
+  top: 36px;
+  width: 55px;
+  height: 54px;
+  z-index: 23;
+}
+
+/* You named this layer twitter_link */
+#Layer-24 {
+  position: absolute;
+  left: 184px;
+  top: 37px;
+  width: 55px;
+  height: 54px;
+  z-index: 24;
+}
+
+/* You named this layer facebook_link */
+#Layer-25 {
+  position: absolute;
+  left: 117px;
+  top: 37px;
+  width: 55px;
+  height: 54px;
+  z-index: 25;
+}
+
+/* You named this layer myspace_linkover */
+#Layer-26 {
+  position: absolute;
+  left: 385px;
+  top: 39px;
+  width: 55px;
+  height: 54px;
+  z-index: 26;
+}
+
+/* You named this layer buzz_linkover */
+#Layer-27 {
+  position: absolute;
+  left: 318px;
+  top: 36px;
+  width: 56px;
+  height: 57px;
+  z-index: 27;
+}
+
+/* You named this layer stumble_linkover */
+#Layer-28 {
+  position: absolute;
+  left: 251px;
+  top: 36px;
+  width: 55px;
+  height: 54px;
+  z-index: 28;
+}
+
+/* You named this layer twitter_linkover */
+#Layer-29 {
+  position: absolute;
+  left: 184px;
+  top: 37px;
+  width: 55px;
+  height: 54px;
+  z-index: 29;
+}
+
+/* You named this layer facebook_linkover */
+#Layer-30 {
+  position: absolute;
+  left: 117px;
+  top: 37px;
+  width: 55px;
+  height: 54px;
+  z-index: 30;
+}
+
+/* You named this layer textbox_text */
+.Layer-31 {
+  position: relative;
+  left: 33px;
+  top: 0px;
+  width: 485px;
+  z-index: 31;
+
+  /* Here are some suggestions for this area's text settings */
+  /* If you want scroll bars when your content gets bigger than the space
+   * you designed for it, uncomment the following line.      */
+  /* overflow: auto; */
+}
+
+/* You named this layer facebook_text */
+#Layer-32 {
+  position: absolute;
+  left: 872px;
+  top: 178px;
+  width: 58px;
+  height: 80px;
+  z-index: 32;
+
+  /* Here are some suggestions for this area's text settings */
+  /* If you want scroll bars when your content gets bigger than the space
+   * you designed for it, uncomment the following line.      */
+  /* overflow: auto; */
+}
+
+/* You named this layer ad2_text */
+#Layer-33 {
+  position: absolute;
+  left: 822px;
+  top: 461px;
+  width: 158px;
+  height: 141px;
+  z-index: 33;
+
+  /* Here are some suggestions for this area's text settings */
+  /* If you want scroll bars when your content gets bigger than the space
+   * you designed for it, uncomment the following line.      */
+  /* overflow: auto; */
+}
+
+/* You named this layer ad1_text */
+#Layer-34 {
+  position: absolute;
+  left: 822px;
+  top: 272px;
+  width: 158px;
+  height: 141px;
+  z-index: 34;
+
+  /* Here are some suggestions for this area's text settings */
+  /* If you want scroll bars when your content gets bigger than the space
+   * you designed for it, uncomment the following line.      */
+  /* overflow: auto; */
+}
+
+/* You named this layer help_link */
+#Layer-35 {
+  position: absolute;
+  left: 198px;
+  top: 473px;
+  width: 39px;
+  height: 130px;
+  z-index: 35;
+}
+
+/* You named this layer help_linkover */
+#Layer-36 {
+  position: absolute;
+  left: 196px;
+  top: 472px;
+  width: 42px;
+  height: 133px;
+  z-index: 36;
+}
+
+/* You named this layer switch_link */
+#Layer-37 {
+  position: absolute;
+  left: 198px;
+  top: 272px;
+  width: 39px;
+  height: 184px;
+  z-index: 37;
+}
+
+/* You named this layer switch_linkover */
+#Layer-38 {
+  position: absolute;
+  left: 196px;
+  top: 270px;
+  width: 42px;
+  height: 188px;
+  z-index: 38;
+}
+
+/* You named this layer switch_menu */
+#Layer-39 {
+  position: absolute;
+  left: 21px;
+  top: 272px;
+  width: 175px;
+  height: 188px;
+  z-index: 39;
+  display: none;
+}
+
+/* You named this layer switch_close */
+#Layer-40 {
+  position: absolute;
+  left: 125px;
+  top: 49px;
+  width: 48px;
+  height: 90px;
+  z-index: 40;
+}
+
+/* You named this layer numberbox_link */
+#Layer-41 {
+  position: absolute;
+  left: 32px;
+  top: 149px;
+  width: 66px;
+  height: 28px;
+  z-index: 41;
+}
+
+/* You named this layer numberbox_linkover */
+#Layer-42 {
+  position: absolute;
+  left: 30px;
+  top: 149px;
+  width: 66px;
+  height: 28px;
+  z-index: 42;
+}
+
+/* You named this layer addbox_link */
+#Layer-43 {
+  position: absolute;
+  left: 32px;
+  top: 91px;
+  width: 66px;
+  height: 28px;
+  z-index: 43;
+}
+
+/* You named this layer addbox_linkover */
+#Layer-44 {
+  position: absolute;
+  left: 30px;
+  top: 91px;
+  width: 66px;
+  height: 28px;
+  z-index: 44;
+}
+
+/* You named this layer index_link */
+#Layer-45 {
+  position: absolute;
+  left: 34px;
+  top: 33px;
+  width: 66px;
+  height: 28px;
+  z-index: 45;
+}
+
+/* You named this layer index_linkover */
+#Layer-46 {
+  position: absolute;
+  left: 32px;
+  top: 33px;
+  width: 66px;
+  height: 28px;
+  z-index: 46;
+}
+
+/* You named this layer title */
+#Layer-47 {
+  position: absolute;
+  left: 208px;
+  top: 209px;
+  width: 575px;
+  height: 45px;
+  z-index: 47;
+}
+
+/* You named this layer titletext */
+#Layer-48 {
+  position: absolute;
+  left: 66px;
+  top: 8px;
+  width: 81px;
+  height: 18px;
+  z-index: 48;
+}
+
+/* You named this layer menubar */
+#Layer-49 {
+  position: absolute;
+  left: 194px;
+  top: 132px;
+  width: 627px;
+  height: 75px;
+  z-index: 49;
+}
+
+/* You named this layer contact_link */
+#Layer-50 {
+  position: absolute;
+  left: 438px;
+  top: 0px;
+  width: 64px;
+  height: 46px;
+  z-index: 50;
+}
+
+/* You named this layer about_link */
+#Layer-51 {
+  position: absolute;
+  left: 331px;
+  top: 0px;
+  width: 107px;
+  height: 46px;
+  z-index: 51;
+}
+
+/* You named this layer news_link */
+#Layer-52 {
+  position: absolute;
+  left: 275px;
+  top: 0px;
+  width: 56px;
+  height: 46px;
+  z-index: 52;
+}
+
+/* You named this layer faq_link */
+#Layer-53 {
+  position: absolute;
+  left: 190px;
+  top: 0px;
+  width: 85px;
+  height: 46px;
+  z-index: 53;
+}
+
+/* You named this layer home_link */
+#Layer-54 {
+  position: absolute;
+  left: 123px;
+  top: 0px;
+  width: 67px;
+  height: 46px;
+  z-index: 54;
+}
+
+/* You named this layer about_linkover */
+#Layer-55 {
+  position: absolute;
+  left: 331px;
+  top: 0px;
+  width: 108px;
+  height: 46px;
+  z-index: 55;
+}
+
+/* You named this layer news_linkover */
+#Layer-56 {
+  position: absolute;
+  left: 275px;
+  top: 0px;
+  width: 57px;
+  height: 46px;
+  z-index: 56;
+}
+
+/* You named this layer faq_linkover */
+#Layer-57 {
+  position: absolute;
+  left: 190px;
+  top: 0px;
+  width: 86px;
+  height: 46px;
+  z-index: 57;
+}
+
+/* You named this layer home_linkover */
+#Layer-58 {
+  position: absolute;
+  left: 123px;
+  top: 0px;
+  width: 68px;
+  height: 46px;
+  z-index: 58;
+}
+
+/* You named this layer index1_link */
+#Layer-59 {
+  position: absolute;
+  left: 291px;
+  top: 15px;
+  width: 442px;
+  height: 117px;
+  z-index: 59;
+}
+
+/* You named this layer Frame_Top_1000 */
+.Layer-1000 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 552px;
+  height: 165px;
+  z-index: 1000;
+  background-image: url(Layer-3.png);
+}
+
+/* You named this layer Frame_Middle_1001 */
+.Layer-1001 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 552px;
+  z-index: 1001;
+  background-image: url(Layer-1001.png);
+}
+
+/* You named this layer Frame_Bottom_1002 */
+.Layer-1002 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 552px;
+  height: 198px;
+  z-index: 1002;
+  background-image: url(Layer-1002.png);
+}
+
+/* Here are some examples of how you might want to change the
+ * look and behavior of the links on your page.  Some examples for
+ * further customization are included in comments.  */
+a {
+  cursor: pointer;
+  outline: none;
+}
+a:link { color: #F88; }
+a:visited { color: #F88; }
+a:hover {
+  color: #F00;
+  /* text-decoration: underline; */
+  /* font-weight: bold; */
+}
+
